@@ -4,6 +4,8 @@
 //918 -> 1
 Console.Clear();
 
+Console.WriteLine("Введите трехзначное целое число");
+
 bool isParsed = int.TryParse(Console.ReadLine(), out int number);
 if (!isParsed)
 {
